@@ -24,3 +24,11 @@ struct EpisodeCharacter: Decodable {
   let name: String
   let image: String
 }
+
+struct Character: Decodable {
+    var id: String
+    var name: String
+    var status: String
+    var species: String
+    var image: String
+}

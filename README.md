@@ -4,9 +4,10 @@ This workshop aims to teach how powerful and fast can iOS app development be by 
 ## Contribution
 You can use the checklist below, fork the project and make the changes suggested in the checklist and then submit your pull request. We'll welcome your pull requests to make this initial project better in every aspect (Code refactoring, feature adding and UI improvements).
 
-- [ ] In the episode details page you can make the characters clickable and add a detail page for each of them. Check out the API to see what fields each character has.
+- [x] ~~In the episode details page you can make the characters clickable and add a detail page for each of them. Check out the API to see what fields each character has.~~
 - [ ] You can add pagination for episodes list (the main view).
 - [ ] You can handle errors so the view will show the localized description of error got from the server.
+
 
 ## Screenshots
 

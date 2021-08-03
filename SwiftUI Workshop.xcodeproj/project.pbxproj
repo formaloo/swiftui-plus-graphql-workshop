@@ -26,6 +26,7 @@
 		6D3EBBA3263AFE7F0076B114 /* EpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EBBA2263AFE7F0076B114 /* EpisodesView.swift */; };
 		6D3EBBA8263B01140076B114 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EBBA7263B01140076B114 /* EpisodeView.swift */; };
 		A034BF7DCE4E3283690385F0 /* Pods_SwiftUI_Workshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFD0F2FAB795711A6620E40 /* Pods_SwiftUI_Workshop.framework */; };
+		FC650B0726B97B2100877176 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC650B0626B97B2100877176 /* CharacterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B8513050BA4125098F198F48 /* Pods-SwiftUI Workshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI Workshop.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI Workshop/Pods-SwiftUI Workshop.debug.xcconfig"; sourceTree = "<group>"; };
 		D4CF2A8F702F21BE1133B70E /* Pods-SwiftUI Workshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI Workshop.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI Workshop/Pods-SwiftUI Workshop.release.xcconfig"; sourceTree = "<group>"; };
 		DBFD0F2FAB795711A6620E40 /* Pods_SwiftUI_Workshop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Workshop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC650B0626B97B2100877176 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				6D3EBB67263AF5820076B114 /* SceneDelegate.swift */,
 				6D3EBBA2263AFE7F0076B114 /* EpisodesView.swift */,
 				6D3EBBA7263B01140076B114 /* EpisodeView.swift */,
+				FC650B0626B97B2100877176 /* CharacterView.swift */,
 				6D3EBB6B263AF5890076B114 /* Assets.xcassets */,
 				6D3EBB70263AF5890076B114 /* LaunchScreen.storyboard */,
 				6D3EBB73263AF5890076B114 /* Info.plist */,
@@ -284,6 +287,7 @@
 				6D3EBBA8263B01140076B114 /* EpisodeView.swift in Sources */,
 				6D3EBB8D263AF8820076B114 /* ViewStatus.swift in Sources */,
 				6D3EBB93263AF9840076B114 /* Network.swift in Sources */,
+				FC650B0726B97B2100877176 /* CharacterView.swift in Sources */,
 				6D3EBB8B263AF8820076B114 /* RemoteImage.swift in Sources */,
 				6D3EBB96263AFA340076B114 /* Repository.swift in Sources */,
 				6D3EBB9B263AFA6A0076B114 /* Model.swift in Sources */,
