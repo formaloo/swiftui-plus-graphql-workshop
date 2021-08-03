@@ -58,3 +58,25 @@ class EpisodeViewModel: ObservableObject {
   }
   
 }
+
+class CharacterViewModel: ObservableObject {
+  @Published var state: ViewStatus = .none
+  @Published var character = Character(id: "1", name: "", status: "", species: "", image: "")
+    
+  let repo = Repository()
+    
+  func setup(id: String) {
+    repo.getCharacter(id: id) { character in
+      guard let character = character else {
+        self.state = .error
+        return
+      }
+            
+      self.character = character
+      self.state = .complete
+        
+        
+    }
+  }
+
+}

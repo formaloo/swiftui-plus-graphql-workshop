@@ -30,14 +30,18 @@ struct EpisodeView: View {
             ScrollView(.horizontal) {
               HStack {
                 ForEach(viewModel.episode.characters ?? [], id: \.id) { character in
-                  VStack {
-                    RemoteImage(url: character.image)
-                      .scaledToFit()
-                      .clipShape(Circle())
-                      .frame(width: 120, height: 120)
-                      .padding()
-                    Text(character.name)
-                  }
+                  NavigationLink(
+                    destination: CharacterView(characterId: character.id),
+                    label: {
+                      VStack {
+                        RemoteImage(url: character.image)
+                            .scaledToFit()
+                            .clipShape(Circle())
+                            .frame(width:120, height:120)
+                            .padding()
+                        Text(character.name)
+                      }
+                  })
                 }
               }
             }

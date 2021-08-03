@@ -21,3 +21,13 @@ query GetEpisode($id: ID = "1") {
       }
     }
 }
+
+query GetCharacter($id: ID = "1") {
+  character(id: $id){
+    id
+    name
+    status
+    species
+    image
+  }
+}
